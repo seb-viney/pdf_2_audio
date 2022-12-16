@@ -3,6 +3,25 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# pdf and mp3 files
+*.pdf
+*.mp3
+
+# vs code ignore
+**/.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
 # C extensions
 *.so
 
